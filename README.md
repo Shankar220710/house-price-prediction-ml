@@ -49,3 +49,69 @@ Random Forest model generally provides better performance compared to basic line
 ## 📂 Dataset Information
 
 The dataset file used:
+
+### 🔹 Important Features Used:
+- OverallQual
+- GrLivArea
+- GarageCars
+- TotalBsmtSF
+- YearBuilt
+- FullBath
+- BedroomAbvGr
+- LotArea
+
+### 🎯 Target Variable:
+- SalePrice
+
+---
+
+## ▶ How to Run the Project
+
+### 1️⃣ Clone the Repository
+git clone https://github.com/Shankar220710/house-price-prediction-ml.git
+
+
+### 2️⃣ Install Required Libraries
+
+
+### 3️⃣ Make Sure Dataset is Present
+Place `Housing.csv` inside the project folder.
+
+### 4️⃣ Run the Project
+
+
+---
+
+## 📈 Model Evaluation Metrics
+
+The models are evaluated using:
+
+- **Mean Squared Error (MSE)** – Measures prediction error
+- **R² Score** – Measures how well the model explains the variance
+
+---
+
+## 📸 Output
+
+The project generates:
+- Regression plots
+- Actual vs Predicted comparison graphs
+- Predicted price for new house input
+
+---
+
+## 👨‍💻 Author
+
+**Vidya Shankar K M**  
+BCA Graduate  
+Aspiring Software Developer & Machine Learning Enthusiast  
+
+---
+
+## ⭐ Future Improvements
+- Add feature scaling
+- Hyperparameter tuning
+- Deploy using Flask or Streamlit
+- Add web-based user interface
+
+
